@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "lib": ["es2020", "DOM"],
+    "target": "ESNext",
+    "module": "NodeNext",
+    "rootDir": "./src",
+    "outDir": "./dist/generated",
+    "esModuleInterop": true,
+    "moduleResolution": "NodeNext",
+    "types": ["node", "puppeteer"]
+  },
+  "include": ["src/**/*.ts"]
+}
